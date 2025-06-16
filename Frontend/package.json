@@ -1,0 +1,78 @@
+{
+  "name": "taxitime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": " set PORT=3001 && react-scripts start",
+    "start": "set PORT=3001 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.0.1",
+    "@mui/x-date-pickers": "^7.28.2",
+    "@radix-ui/react-select": "^2.1.6",
+    "@react-google-maps/api": "^2.20.6",
+    "@tanstack/react-table": "^8.21.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.5",
+    "bootstrap-icons": "^1.11.1",
+    "datatables.net-buttons": "^3.2.2",
+    "datatables.net-buttons-dt": "^3.2.2",
+    "datatables.net-responsive": "^3.0.4",
+    "date-fns": "^4.1.0",
+    "file-saver": "^2.0.5",
+    "joi": "^17.13.3",
+    "jquery": "^3.7.1",
+    "js-cookie": "^3.0.5",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.482.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.9",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-data-table-component": "^7.7.0",
+    "react-datepicker": "^8.2.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-otp-input": "^3.1.1",
+    "react-router-dom": "^6.29.0",
+    "react-scripts": "5.0.1",
+    "react-swipeable-button": "^1.6.5",
+    "react-toastify": "^11.0.5",
+    "socket.io-client": "^4.8.1",
+    "styled-components": "^6.1.17",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

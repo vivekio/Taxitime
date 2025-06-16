@@ -1,0 +1,64 @@
+.custom-table-wrapper {
+    overflow-x: auto;
+    padding: 1rem;
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+  }
+  
+  .custom-table thead th {
+    background-color: #cfcfcf56;
+    color: #4f4f4f; 
+    border-bottom: 1px solid #888787;
+    border-top: 1px solid #8d8d8d;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .custom-table td, 
+  .custom-table th {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .status-badge {
+    padding: 0.35em 0.7em;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+  }
+  
+
+  .status-badge.COMPLETED {
+    background-color: #198754; /* Green */
+    color: white;
+  }
+  
+  .status-badge.pending {
+    background-color: #ffc107; /* Yellow */
+    color: black;
+  }
+  
+  /* NEW: Red for canceled */
+  .status-badge.CANCELLED {
+    background-color: #dc3545; /* Bootstrap red */
+    color: white;
+  }
+  
+  .details-btn {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+  }
+  @media (max-width: 576px) {
+    .custom-table td, 
+    .custom-table th {
+      font-size: 0.85rem;
+      padding: 0.5rem;
+    }
+  
+    .details-btn {
+      font-size: 0.7rem;
+      padding: 0.2rem 0.5rem;
+    }
+  }
+  

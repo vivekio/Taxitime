@@ -1,0 +1,29 @@
+.button-container {
+    width: 100%;
+  }
+  
+  /* Common Button Styling */
+  .custom-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 18px;
+    background: none;
+    border: 1px solid transparent;
+    color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Button Icons */
+  .button-icon {
+    font-size: 20px;
+  }
+  .cancel-btn{
+    background-color: rgb(255, 255, 255) !important;
+    color: #000000 !important;
+    border: 2px solid rgba(0, 0, 0, 0.5) !important;
+  }

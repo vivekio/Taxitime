@@ -1,0 +1,174 @@
+.img-bg {
+  background-image: url("../../Picture/loginbanner.jpg");
+  background-size: 100% 100%;
+  max-width: 100%;
+  height: 100%;
+}
+.user-text {
+  color: white;
+  font-weight: 700;
+  font-size: 60px;
+  padding-top: 55px;
+}
+.user-button {
+  padding-top: 30px;
+}
+.login-text {
+  color: #dd3751;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.btn-user {
+  background-color: #374b5d;
+  border: 2px solid #374b5d;
+}
+.btn-user1 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.service-bg {
+  background-image: url("../../Picture/loginbg.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-login {
+  height: 40px;
+}
+.service-login {
+  color: #dd3751;
+  font-weight: 700;
+}
+.text-login {
+  text-align: center;
+}
+.login-line {
+  background-color: #e7e7e7;
+  height: 1px;
+  width: 370px;
+  margin: 20px 0 20px 0;
+}
+.alert-msg {
+  width: 435px;
+  height: 55px;
+  margin-inline: auto;
+}
+.login-tag {
+  color: black;
+  font-size: 30px;
+}
+.user-login-input {
+  background-color: #f2f2f2;
+  text-align: center;
+  width: 435px;
+  height: 55px;
+  border-radius: 0;
+  border: 1px solid #e7e7e7;
+}
+.forget-pswd {
+  text-decoration: none;
+  color: #6b6b6b;
+  text-align: start;
+  margin-right: 280px;
+}
+.login-submit {
+  width: 435px;
+  height: 50px;
+  color: white;
+  background-color: #dd3751;
+  border: none;
+  border-radius: 0;
+  font-size: 26px;
+  font-weight: 500;
+}
+.register_link {
+  color: #dd3751;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+}
+.err {
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+}
+.login-tag {
+  margin-right: 355px;
+}
+
+/* media query */
+
+@media screen and (max-width: 352px) {
+  .login-line {
+    width: 285px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .user-login-input {
+    width: 305px;
+  }
+  .text-login {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 447px) {
+  .alert-msg {
+    width: 255px;
+  }
+  .login-tag {
+    margin-right: 171px;
+  }
+  .user-login-input {
+    width: 255px;
+  }
+  .login-submit {
+    width: 255px;
+  }
+}
+
+@media screen and (max-width: 451px) {
+  .forget-pswd {
+    margin-right: 110px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .user-text {
+    font-size: 26px;
+  }
+  .login-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .img-bg {
+    height: auto;
+  }
+  .service-bg {
+    padding: 25px;
+  }
+  .login-form {
+    height: 575px;
+  }
+}
+
+@media screen and (max-width: 1341px) {
+  .img-bg {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .img-bg {
+    height: auto;
+  }
+}

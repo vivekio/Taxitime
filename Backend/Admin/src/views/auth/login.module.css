@@ -1,0 +1,36 @@
+.wrapper {
+  min-height: 930px;
+  background-size: cover;
+  background-image: url("../../assets/images/BG_LOGO.png");
+  background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.form {
+  border-right: 1px solid light-dark;
+  min-height: 930px;
+  max-width: 600px;
+
+  /* padding-top: 80px;
+  padding-top: 50%; */
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    max-width: 100%;
+  }
+}
+
+.title {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-family:
+    Greycliff CF,
+    var(--mantine-font-family);
+    margin: 20px;
+}
+.image {
+  width: 90px;
+  height: 60px;
+  margin-left: 40%;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+.otp-input{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.forget-tag{
+    margin-right: 240px;
+    color: black;
+    font-size: 30px;
+}

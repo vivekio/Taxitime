@@ -1,0 +1,30 @@
+/* .feature-main {
+  position: relative;
+}
+.feature-con{
+  margin-top: 500px;
+} */
+.feature-title {
+  color: #374B5D;
+  font-size: 50px;
+  font-weight: 700;
+}
+.feature-description {
+  font-weight: 500;
+}
+.feature-card-img {
+    width: 30px;
+    height: 30px;
+    margin-left: 19px;
+}
+.feature-card-title {
+  color: #dd3751;
+  font-weight: 600;
+}
+.feature-card-description {
+  font-weight: 500;
+}
+.feature-bg{
+    background-image: url('../../../Picture/bg.png');
+    background-size: cover;
+}

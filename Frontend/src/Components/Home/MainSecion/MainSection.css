@@ -1,0 +1,281 @@
+* {
+  font-family: Montserrat;
+}
+.section-bg-car {
+  background-image: url("../../../Picture/image1.png");
+  background-size: cover;
+}
+.main-section-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.main-section-title {
+  font-size: 74px;
+  font-weight: 600;
+  color: #dd3751;
+}
+.main-section-title-app {
+  font-weight: 700;
+  font-size: 68px;
+  color: #374b5d;
+}
+.main-section-text-2 {
+  font-size: 27px;
+  font-weight: 500;
+}
+.btn-user {
+  background-color: #374b5d;
+}
+.button-section {
+  margin-top: 35px;
+}
+.main-section-bg {
+  background-color: white;
+  top: 35px;
+  left: 119px;
+  border-radius: 18px;
+}
+.input-section {
+  background-color: #e7e7e7;
+  text-align: center;
+  width: 346px;
+  height: 67px;
+  border-radius: 0;
+  border: none;
+}
+.input-button {
+  background-color: #374b5d;
+  height: 67px;
+  width: 114px;
+  border-radius: 0;
+  color: #dd3751;
+  font-size: 21px;
+  font-weight: 600;
+}
+.section-submit {
+  width: 458px;
+  height: 67px;
+  color: white;
+  background-color: #dd3751;
+  border: none;
+  border-radius: 0;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+/* media query */
+
+@media screen and (max-width: 1400px) {
+  .main-section-bg {
+    left: 54px;
+  }
+  .input-section {
+    width: 304px;
+  }
+  .section-submit {
+    width: 417px;
+  }
+  .main-section-title-app {
+    font-size: 54px;
+  }
+  .main-section-title {
+    font-size: 57px;
+  }
+  .main-section-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .main-section-bg {
+    left: 0px;
+  }
+  .input-section {
+    width: 283px;
+  }
+  .input-button {
+    width: 97px;
+  }
+  .section-submit {
+    width: 378px;
+  }
+  .main-section-title-app {
+    font-size: 45px;
+  }
+  .main-section-title {
+    font-size: 42px;
+  }
+  .main-section-text-2 {
+    font-size: 21px;
+  }
+  .main-section-text {
+    font-size: 15px;
+  }
+  .section-fluid {
+    height: 412px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-section-title-app {
+    font-size: 72px;
+  }
+  .main-section-title {
+    font-size: 62px;
+  }
+  .main-section-text-2 {
+    font-size: 30px;
+  }
+  .main-section-text {
+    font-size: 19px;
+  }
+  .section-fluid {
+    height: 840px;
+  }
+  .input-section {
+    width: 417px;
+  }
+  .input-button {
+    width: 143px;
+  }
+  .section-submit {
+    width: 560px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .input-section {
+    width: 349px;
+  }
+  .input-button {
+    width: 110px;
+  }
+  .section-submit {
+    width: 463px;
+  }
+  .main-section-title-app {
+    font-size: 53px;
+  }
+  .main-section-title {
+    font-size: 49px;
+  }
+  .main-section-text-2 {
+    font-size: 26px;
+  }
+  .main-section-text {
+    font-size: 15px;
+  }
+  .section-fluid {
+    height: 820px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .input-section {
+    width: 225px;
+    height: 59px;
+  }
+  .input-button {
+    width: 106px;
+    height: 59px;
+    font-size: 19px;
+  }
+  .section-submit {
+    width: 334px;
+    height: 56px;
+    font-size: 22px;
+  }
+  .main-section-title-app {
+    font-size: 41px;
+  }
+  .main-section-title {
+    font-size: 41px;
+  }
+  .main-section-text-2 {
+    font-size: 24px;
+  }
+  .section-fluid {
+    height: 805px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .input-section {
+    width: 160px;
+    height: 44px;
+    margin-top: 0px !important;
+  }
+  .input-button {
+    width: 87px;
+    height: 45px;
+  }
+  .input-button img {
+    height: 30px;
+  }
+  .section-submit {
+    width: 245px;
+    height: 42px;
+    font-size: 19px;
+    margin-top: 11px !important;
+  }
+  .main-section-title-app {
+    font-size: 33px;
+  }
+  .main-section-title {
+    font-size: 29px;
+  }
+  .main-section-text-2 {
+    font-size: 18px;
+    margin-bottom: 1px;
+  }
+  .main-section-text {
+    font-size: 10px;
+  }
+  .button-section {
+    margin-top: 20px;
+  }
+  .section-fluid {
+    height: 585px;
+  }
+}
+
+@media screen and (max-width: 341px) {
+  .input-section {
+    width: 145px;
+    height: 41px;
+    font-size: 11px;
+    border-radius: 0;
+  }
+  .section-submit {
+    width: 220px;
+    height: 41px;
+    font-size: 16px;
+    margin-top: 1px !important;
+    border-radius: 0;
+  }
+  .input-button {
+    width: 72px;
+    height: 41px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0;
+  }
+  .main-section-title-app {
+    font-size: 24px;
+  }
+  .main-section-title {
+    font-size: 19px;
+  }
+  .main-section-text-2 {
+    font-size: 13px;
+  }
+  .button-section {
+    margin-top: 15px;
+    width: 109px;
+    font-size: 11px;
+  }
+  .section-fluid {
+    height: 545px;
+  }
+}
